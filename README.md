@@ -1,4 +1,4 @@
-# deployGit
+## deploy2 -- ANYWHERE
 ### Keeping your deployments in check
 
 Deploy allows to you to clone a Git repo temporary, update and commit files from a source folder then push the changes back up.
