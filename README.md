@@ -11,7 +11,7 @@ Here are the issues:
 
 >When using onsite version control systems like TFS, building node or non .net applications it is near impossible to easily deploy
 
-##Solution
+## Solution
 Keep your deployment Git repos (builds) separate from the development repos
 
 #### Right but, just show me the code!
