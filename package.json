@@ -1,11 +1,31 @@
 {
   "name": "deploy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Making it easy to deploy to a git repo or cloud service like azure, heroku etc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virus2016/deploy.git"
+  },
+  "keywords": [
+    "deploy",
+    "azure"
+  ],
+  "author": "virus2016",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/virus2016/deploy/issues"
+  },
+  "homepage": "https://github.com/virus2016/deploy#readme",
+  "dependencies": {
+    "filewalker": "^0.1.2",
+    "fs-extra": "^0.26.2",
+    "git-exec": "^0.2.1",
+    "guid": "0.0.12",
+    "q": "^1.4.1",
+    "temp": "^0.8.3"
+  }
 }
