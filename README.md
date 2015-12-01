@@ -1,4 +1,4 @@
-# Deploy
+## deploy2 -- ANYWHERE
 ### Keeping your deployments in check
 
 Deploy allows to you to clone a Git repo temporary, update and commit files from a source folder then push the changes back up.
@@ -11,7 +11,7 @@ Here are the issues:
 
 >When using onsite version control systems like TFS, building node or non .net applications it is near impossible to easily deploy
 
-##Solution
+## Solution
 Keep your deployment Git repos (builds) separate from the development repos
 
 #### Right but, just show me the code!
@@ -20,7 +20,7 @@ Keep your deployment Git repos (builds) separate from the development repos
 var deploy = require('deploy');
 var gitUrl = 'https://{username}:{password}@{url}/{path}.git';
 
-deploy('{sourceDir}', gitUrl, '{commitMessage}', [excludefolder, excludefolder, excludefolder])
+deploy('{sourceDir}', gitUrl, '{commitMessage}', [excludefolder, excludefolder])
 
 .then(function(result) {
   console.log(result);
@@ -32,3 +32,8 @@ deploy('{sourceDir}', gitUrl, '{commitMessage}', [excludefolder, excludefolder, 
 ```
 
 Feel free to contribute
+
+
+##### TODO
+
+> Add mocha for tests

@@ -1,6 +1,6 @@
 {
-  "name": "deploy",
-  "version": "1.0.0",
+  "name": "deploy2",
+  "version": "0.0.1",
   "description": "Making it easy to deploy to a git repo or cloud service like azure, heroku etc",
   "main": "index.js",
   "scripts": {
