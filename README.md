@@ -1,4 +1,4 @@
-# Deploy
+# deployGit
 ### Keeping your deployments in check
 
 Deploy allows to you to clone a Git repo temporary, update and commit files from a source folder then push the changes back up.
@@ -32,3 +32,8 @@ deploy('{sourceDir}', gitUrl, '{commitMessage}', [excludefolder, excludefolder, 
 ```
 
 Feel free to contribute
+
+
+##### TODO
+
+> Add mocha for tests
