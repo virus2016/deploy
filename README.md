@@ -20,7 +20,7 @@ Keep your deployment Git repos (builds) separate from the development repos
 var deploy = require('deploy');
 var gitUrl = 'https://{username}:{password}@{url}/{path}.git';
 
-deploy('{sourceDir}', gitUrl, '{commitMessage}', [excludefolder, excludefolder, excludefolder])
+deploy('{sourceDir}', gitUrl, '{commitMessage}', [excludefolder, excludefolder])
 
 .then(function(result) {
   console.log(result);
